@@ -357,7 +357,7 @@ stages:
   # Check - "Xamarin.Android (Test API Compatibility)"
   - job: mac_api_compat
     displayName: API Compatibility
-    pool: $(HostedMacMojave)
+    pool: $(HostedMac)
     timeoutInMinutes: 60
     cancelTimeoutInMinutes: 5
     workspace:
@@ -592,7 +592,7 @@ stages:
   # Check - "Xamarin.Android (Test MSBuild - macOS)"
   - job: mac_msbuild_tests
     displayName: MSBuild - macOS
-    pool: $(HostedMacMojave)
+    pool: $(HostedMac)
     timeoutInMinutes: 180
     cancelTimeoutInMinutes: 5
     workspace:
