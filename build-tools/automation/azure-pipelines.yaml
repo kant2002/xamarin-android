@@ -22,7 +22,7 @@ variables:
   TestAssembliesArtifactName: test-assemblies
   NUnitConsoleVersion: 3.9.0
   DotNetCoreVersion: 2.1.701
-  OnPremMacMojave: VSEng-Xamarin-RedmondMacMojaveBuildPool
+  OnPremMacMojave: VSEng-Xamarin-RedmondMacMojaveBuildPool-Android
   HostedMac: Hosted Mac Internal
   HostedWinVS2019: Hosted Windows 2019 with VS2019
   VSEngWinVS2019: VSEng-MicroBuildVS2019
