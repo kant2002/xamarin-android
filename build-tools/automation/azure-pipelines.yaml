@@ -17,15 +17,24 @@ resources:
 
 # Global variables
 variables:
-  BundleArtifactName: bundle
-  InstallerArtifactName: installers
-  TestAssembliesArtifactName: test-assemblies
-  NUnitConsoleVersion: 3.9.0
-  DotNetCoreVersion: 2.1.701
-  OnPremMacMojave: VSEng-Xamarin-RedmondMacMojaveBuildPool-Android
-  HostedMac: Hosted Mac Internal
-  HostedWinVS2019: Hosted Windows 2019 with VS2019
-  VSEngWinVS2019: VSEng-MicroBuildVS2019
+  - name: BundleArtifactName
+    value: bundle
+  - name: InstallerArtifactName
+    value: installers
+  - name: TestAssembliesArtifactName
+    value: test-assemblies
+  - name: NUnitConsoleVersion
+    value: 3.9.0
+  - name: DotNetCoreVersion
+    value: 2.1.701
+  - name: OnPremMacMojave
+    value: VSEng-Xamarin-RedmondMacMojaveBuildPool-Android
+  - name: HostedMac
+    value: Hosted Mac Internal
+  - name: HostedWinVS2019
+    value: Hosted Windows 2019 with VS2019
+  - name: VSEngWinVS2019
+    value: VSEng-MicroBuildVS2019
   - group: Xamarin-Secrets
 
 # Stage and Job "display names" are shortened because they are combined to form the name of the corresponding GitHub check.
