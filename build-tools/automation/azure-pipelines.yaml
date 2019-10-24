@@ -35,7 +35,7 @@ variables:
     value: Hosted Windows 2019 with VS2019
   - name: VSEngWinVS2019
     value: VSEng-MicroBuildVS2019
-  - group: Xamarin-Secrets
+  - group: Xamarin Build Secrets
 
 # Stage and Job "display names" are shortened because they are combined to form the name of the corresponding GitHub check.
 stages:
