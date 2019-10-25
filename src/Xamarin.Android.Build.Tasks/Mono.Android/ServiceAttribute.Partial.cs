@@ -8,6 +8,8 @@ using Java.Interop.Tools.Cecil;
 
 using Xamarin.Android.Manifest;
 
+using Android.Content.PM;
+
 namespace Android.App {
 
 	partial class ServiceAttribute {
@@ -31,6 +33,11 @@ namespace Android.App {
 			  "exported",
 			  self          => self.Exported,
 			  (self, value) => self.Exported  = (bool) value
+			}, {
+			  "ForegroundServiceType",
+			  "foregroundServiceType",
+			  self          => self.ForegroundServiceType,
+			  (self, value) => self.ForegroundServiceType  = (ForegroundService) value
 			}, {
 			  "Icon",
 			  "icon",
